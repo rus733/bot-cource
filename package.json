@@ -1,0 +1,21 @@
+{
+  "name": "telegram-shmelrbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "covid19-api": "^1.2.1",
+    "dotenv": "^16.0.0",
+    "node-telegram-bot-api": "0.56.0",
+    "nodemon": "^2.0.15",
+    "socks5-https-client": "^1.2.1",
+    "telegraf": "^4.7.0"
+  }
+}
